@@ -1,0 +1,24 @@
+{
+  "name": "vue-portfolio",
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "@fortawesome/vue-fontawesome": "^3.0.0-3",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.4",
+    "gridsome": "^0.7.0",
+    "vuesax": "^4.0.1-alpha.25"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "gridsome-plugin-tailwindcss": "^4.1.1",
+    "postcss": "^7.0.35",
+    "postcss-import": "^13.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
+  }
+}
