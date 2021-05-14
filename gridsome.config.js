@@ -6,6 +6,8 @@
 
 module.exports = {
   siteName: 'Gridsome',
+  siteUrl: 'https://alexwhitmore.github.io/vue-portfolio/',
+  pathPrefix: '/vue-portfolio',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
